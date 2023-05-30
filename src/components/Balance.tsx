@@ -10,10 +10,10 @@ export function Balance() {
       <div>
         <AccountBalance />
       </div>
-      <br />
+      {/* <br />
       <div>
         <FindBalance />
-      </div>
+      </div> */}
     </>
   )
 }
@@ -28,7 +28,7 @@ export function AccountBalance() {
   return (
     <div>
       {data?.formatted}
-      <button onClick={() => refetch()}>refetch</button>
+      {/* <button onClick={() => refetch()}>refetch</button> */}
     </div>
   )
 }
